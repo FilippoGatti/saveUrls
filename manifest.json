@@ -1,0 +1,22 @@
+{
+  "name": "Save urls",
+  "description": "Save URL of the open tabs - author: Filippo",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "./images/save_url_16.png",
+    "128": "./images/save_url_128.png"
+  },
+    "action": {
+    "default_popup": "./popup.html",
+    "default_icon": {
+      "16": "./images/save_url_16.png",
+      "128": "./images/save_url_128.png"
+    },
+	"default_title": "Save URLs"
+  },
+  "permissions": ["tabs", "storage"],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
